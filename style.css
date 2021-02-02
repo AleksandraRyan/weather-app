@@ -1,7 +1,5 @@
 body {
-  background: url('https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80')
-    no-repeat center center/cover;
-  height: 50vh;
+  /* background: chocolate; */
 }
 h1 {
   text-align: center;
@@ -32,4 +30,20 @@ form input[type='submit'] {
 
 form input[type='submit']:hover {
   background-color: #9c1549;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info img {
+  width: 100%;
+}
+
+.info h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
 }

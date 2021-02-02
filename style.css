@@ -6,3 +6,30 @@ body {
 h1 {
   text-align: center;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+form input[type='submit'] {
+  background: #ec6397;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 1s ease-in;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input[type='submit']:hover {
+  background-color: #9c1549;
+}
